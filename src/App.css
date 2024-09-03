@@ -1,0 +1,54 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto; /* Centers the content horizontally */
+  padding-left: 40px; /* Adds padding on the left */
+  padding-right: 40px; /* Adds padding on the right */
+
+  flex-direction: column; /* Aligns children vertically */
+  align-items: center; /* Centers children horizontally */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.custom-carousel-control-prev,
+.custom-carousel-control-next {
+  filter: invert(100%); /* Makes the icon black */
+  background-color: transparent; /* Optional: Remove any default background color */
+  border: none; /* Optional: Remove any border */
+  opacity: 0.75; /* Optional: Adjust transparency */
+}
+
+.custom-carousel-control-prev:hover,
+.custom-carousel-control-next:hover {
+  opacity: 1; /* Make the button fully opaque on hover */
+}
