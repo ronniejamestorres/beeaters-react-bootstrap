@@ -4,6 +4,7 @@ BeEaters is a restaurant website using React, Typescript and Bootstrap.
 
 ![Screenshot of the app](./src/images/homepage-screenshot.jpg)
 ![Screenshot of the app](./src/images/menu-screenshot.jpg)
+![Screenshot of the app](./src/images/restaurant-screenshot.jpg)
 
 ## Installation
 
@@ -13,8 +14,8 @@ git clone git@github.com:ronniejamestorres/beeaters-react-bootstrap.git
 Follow these steps to run this project in your local environment:
 
 ```bash
-git clone [your-repo-link]
-cd issue-tracker-front
+git clone git@github.com:ronniejamestorres/beeaters-react-bootstrap.git
+cd beeaters-react-bootstrap
 npm install
 ```
 
@@ -42,7 +43,7 @@ Contributions to BeEaters are very welcome! If you have an idea for a feature, o
 - Push your branch to your Github repository.
 - Create a Pull Request to merge with this repository.
 
-## Start the development server:
+## Start the development :
 
 ```bash
 npm run dev

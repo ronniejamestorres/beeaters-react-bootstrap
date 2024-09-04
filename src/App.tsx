@@ -14,7 +14,6 @@ import ContactPage from "./pages/ContactPage";
 function App() {
   return (
     <Router>
-      {/* Wrap the entire component structure with Router */}
       <MyNavbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
